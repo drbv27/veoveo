@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after{
+    margin:0
+}
+#hero{
+    display: flex;
+    align-items: flex-end;
+    width: 99vw;
+    height: 89vh;
+    background-image: url(../img/portada3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.titulos{
+    width: 80vw;
+    color:white;
+    font-size: 2rem;
+}
+.titulos h2{
+    margin-left: 6rem;
+    font-size: 6rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-stretch:extra-expanded;
+}
+.titulos p{
+    margin-left: 18rem;
+    margin-bottom: 8rem;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1rem;
+}
+.titulos h4{
+    margin-left: 6rem;;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+.titulos h4 span{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color:orangered;
+}
+.titulos h4:last-child{
+    margin-bottom: 3rem;
+}
+
+
+#logohero{
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+    display: flex;
+    width: 20vw;
+}
+#galena,#veoveo{
+    width: 10vw;
+}
+#galena img,#veoveo img{
+    width: 100%;
+}
+
+nav{
+    background-color: darkolivegreen;
+    display: flex;
+    padding-left: 6rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+nav div{
+    margin-left: 1.2rem;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+}
+
+#nosotras{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+#nosotras h2:first-child{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: orangered;
+}
+
+#nosotras h2:nth-child(2){
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+#cards{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    display: flex;
+    gap: 4rem;
+}
+#frase{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: lightgray;
+}
+
+#ayudamos{
+    overflow:hidden;
+    position: relative;
+    margin-bottom: 1rem;
+}
+#ayudamos h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: orangered;
+    margin-top: 1rem;
+    text-align: center;
+}
+.demo-bg {
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+.demo-content {
+    position: relative;
+}
+#cards{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    display: flex;
+}
+#cards .cardsita{
+    padding: 0.5rem;
+    width: 18vw;
+    text-align: justify;
+    background-color: rgba(0,255,0,0.1);
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+#cards .cardsita img{
+    width: 100%;
+}
+#cards .cardsita p{
+    font-weight: bold;
+}
+#cards .cardsita p span{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
